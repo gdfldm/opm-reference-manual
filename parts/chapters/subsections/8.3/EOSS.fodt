@@ -894,6 +894,18 @@ Updated with AFR/TSA Rev-D comments and new keywords.</dc:description><meta:init
    <style:paragraph-properties fo:hyphenation-ladder-count="no-limit" style:page-number="auto"></style:paragraph-properties>
    <style:text-properties fo:hyphenate="false" fo:hyphenation-remain-char-count="2" fo:hyphenation-push-char-count="2" loext:hyphenation-no-caps="false"></style:text-properties>
   </style:style>
+  <style:style style:name="_40_Table_20_Contents_20_Center" style:display-name="@Table Contents Center" style:family="paragraph" style:parent-style-name="Table_20_Contents" style:master-page-name="">
+   <style:paragraph-properties fo:hyphenation-ladder-count="no-limit" style:page-number="auto" fo:text-align="center"></style:paragraph-properties>
+   <style:text-properties fo:hyphenate="false" fo:hyphenation-remain-char-count="2" fo:hyphenation-push-char-count="2" loext:hyphenation-no-caps="false"></style:text-properties>
+  </style:style>
+  <style:style style:name="_40_Table_20_Notes_20_Title" style:display-name="@Table Notes Title" style:family="paragraph" style:parent-style-name="Table_20_Contents" style:master-page-name="">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false" fo:hyphenation-ladder-count="no-limit" style:page-number="auto"></style:paragraph-properties>
+   <style:text-properties style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold" fo:hyphenate="false" fo:hyphenation-remain-char-count="2" fo:hyphenation-push-char-count="2" loext:hyphenation-no-caps="false"/>
+  </style:style>
+  <style:style style:name="_40_Table_20_Notes" style:display-name="@Table Notes" style:family="paragraph" style:parent-style-name="Table_20_Contents" style:master-page-name="" style:list-style-name="L1">
+   <style:paragraph-properties fo:hyphenation-ladder-count="no-limit" style:page-number="auto"></style:paragraph-properties>
+   <style:text-properties fo:hyphenate="false" fo:hyphenation-remain-char-count="2" fo:hyphenation-push-char-count="2" loext:hyphenation-no-caps="false"></style:text-properties>
+  </style:style>
   <style:style style:name="_40_Code" style:display-name="@Code" style:family="paragraph" style:parent-style-name="_40_Example" style:master-page-name="">
    <style:paragraph-properties style:page-number="auto"></style:paragraph-properties>
    <style:text-properties fo:color="#004586" loext:opacity="100%"></style:text-properties>
@@ -1917,6 +1929,7 @@ Updated with AFR/TSA Rev-D comments and new keywords.</dc:description><meta:init
   <style:default-page-layout>
    <style:page-layout-properties style:writing-mode="lr-tb" style:layout-grid-standard-mode="true"></style:page-layout-properties>
   </style:default-page-layout>
+  <style:style style:name="NotKeyword" style:family="text"/>
  </office:styles><office:automatic-styles>
   <style:style style:name="Table108" style:family="table">
    <style:table-properties style:width="16.976cm" fo:margin-left="-0.053cm" table:align="left" style:writing-mode="lr-tb" table:border-model="separating"></style:table-properties>
@@ -2503,13 +2516,63 @@ Updated with AFR/TSA Rev-D comments and new keywords.</dc:description><meta:init
   </style:style>
   <style:style style:name="Table990.A1" style:family="table-cell">
    <style:table-cell-properties fo:background-color="#ff950e" fo:padding-left="0.051cm" fo:padding-right="0.051cm" fo:padding-top="0.102cm" fo:padding-bottom="0.102cm" fo:border-left="0.05pt solid #000000" fo:border-right="none" fo:border-top="0.05pt solid #000000" fo:border-bottom="0.05pt solid #000000">
-    <style:background-image></style:background-image>
+    <style:background-image/>
+   </style:table-cell-properties>
+  </style:style>
+  <style:style style:name="Table990.B1" style:family="table-cell">
+   <style:table-cell-properties fo:background-color="#eeeeee" fo:padding-left="0.051cm" fo:padding-right="0.051cm" fo:padding-top="0.102cm" fo:padding-bottom="0.102cm" fo:border-left="0.05pt solid #000000" fo:border-right="none" fo:border-top="0.05pt solid #000000" fo:border-bottom="0.05pt solid #000000">
+    <style:background-image/>
    </style:table-cell-properties>
   </style:style>
   <style:style style:name="Table990.H1" style:family="table-cell">
-   <style:table-cell-properties fo:background-color="#ff950e" fo:padding-left="0.051cm" fo:padding-right="0.051cm" fo:padding-top="0.102cm" fo:padding-bottom="0.102cm" fo:border="0.05pt solid #000000">
-    <style:background-image></style:background-image>
+   <style:table-cell-properties fo:background-color="#eeeeee" fo:padding-left="0.051cm" fo:padding-right="0.051cm" fo:padding-top="0.102cm" fo:padding-bottom="0.102cm" fo:border="0.05pt solid #000000">
+    <style:background-image/>
    </style:table-cell-properties>
+  </style:style>
+  <style:style style:name="Table972" style:family="table">
+   <style:table-properties style:width="15.556cm" fo:margin-left="1.468cm" table:align="left" fo:background-color="transparent" fo:keep-with-next="always">
+    <style:background-image/>
+   </style:table-properties>
+  </style:style>
+  <style:style style:name="Table972.A" style:family="table-column">
+   <style:table-column-properties style:column-width="1.272cm"/>
+  </style:style>
+  <style:style style:name="Table972.B" style:family="table-column">
+   <style:table-column-properties style:column-width="2.314cm"/>
+  </style:style>
+  <style:style style:name="Table972.C" style:family="table-column">
+   <style:table-column-properties style:column-width="9.989cm"/>
+  </style:style>
+  <style:style style:name="Table972.D" style:family="table-column">
+   <style:table-column-properties style:column-width="1.981cm"/>
+  </style:style>
+  <style:style style:name="Table972.A1" style:family="table-cell">
+   <style:table-cell-properties fo:padding="0.097cm" fo:border-left="0.05pt solid #000000" fo:border-right="none" fo:border-top="0.05pt solid #000000" fo:border-bottom="0.05pt solid #000000"/>
+  </style:style>
+  <style:style style:name="Table972.D1" style:family="table-cell">
+   <style:table-cell-properties fo:padding="0.097cm" fo:border="0.05pt solid #000000"/>
+  </style:style>
+  <style:style style:name="Table972.2" style:family="table-row">
+   <style:table-row-properties fo:background-color="transparent">
+    <style:background-image/>
+   </style:table-row-properties>
+  </style:style>
+  <style:style style:name="Table972.A2" style:family="table-cell">
+   <style:table-cell-properties fo:background-color="transparent" fo:padding="0.097cm" fo:border-left="0.05pt solid #000000" fo:border-right="none" fo:border-top="none" fo:border-bottom="0.05pt solid #000000">
+    <style:background-image/>
+   </style:table-cell-properties>
+  </style:style>
+  <style:style style:name="Table972.B2" style:family="table-cell">
+   <style:table-cell-properties fo:padding="0.097cm" fo:border-left="0.05pt solid #000000" fo:border-right="none" fo:border-top="none" fo:border-bottom="0.05pt solid #000000"/>
+  </style:style>
+  <style:style style:name="Table972.C2" style:family="table-cell">
+   <style:table-cell-properties fo:padding="0.097cm" fo:border-left="0.05pt solid #000000" fo:border-right="none" fo:border-top="none" fo:border-bottom="0.05pt solid #000000"/>
+  </style:style>
+  <style:style style:name="Table972.D2" style:family="table-cell">
+   <style:table-cell-properties fo:padding="0.097cm" fo:border-left="0.05pt solid #000000" fo:border-right="0.05pt solid #000000" fo:border-top="none" fo:border-bottom="0.05pt solid #000000"/>
+  </style:style>
+  <style:style style:name="Table972.A3" style:family="table-cell">
+   <style:table-cell-properties fo:padding="0.097cm" fo:border-left="0.05pt solid #000000" fo:border-right="0.05pt solid #000000" fo:border-top="none" fo:border-bottom="0.05pt solid #000000"/>
   </style:style>
   <style:style style:name="P1" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-indent="0cm" style:auto-text-indent="false" style:writing-mode="page"></style:paragraph-properties>
@@ -2685,6 +2748,58 @@ Updated with AFR/TSA Rev-D comments and new keywords.</dc:description><meta:init
     <text:notes-configuration text:note-class="endnote" text:start-value="1"></text:notes-configuration>
    </style:section-properties>
   </style:style>
+  <text:list-style style:name="L1">
+   <text:list-level-style-number text:level="1" loext:num-list-format="%1%)" style:num-suffix=")" style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.27cm" fo:text-indent="-0.635cm" fo:margin-left="1.27cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="2" loext:num-list-format="%2%)" style:num-suffix=")" style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.905cm" fo:text-indent="-0.635cm" fo:margin-left="1.905cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="3" loext:num-list-format="%3%)" style:num-suffix=")" style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.54cm" fo:text-indent="-0.635cm" fo:margin-left="2.54cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="4" loext:num-list-format="%4%)" style:num-suffix=")" style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3.175cm" fo:text-indent="-0.635cm" fo:margin-left="3.175cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="5" loext:num-list-format="%5%)" style:num-suffix=")" style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3.81cm" fo:text-indent="-0.635cm" fo:margin-left="3.81cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="6" loext:num-list-format="%6%)" style:num-suffix=")" style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="4.445cm" fo:text-indent="-0.635cm" fo:margin-left="4.445cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="7" loext:num-list-format="%7%)" style:num-suffix=")" style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="5.08cm" fo:text-indent="-0.635cm" fo:margin-left="5.08cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="8" loext:num-list-format="%8%)" style:num-suffix=")" style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="5.715cm" fo:text-indent="-0.635cm" fo:margin-left="5.715cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="9" loext:num-list-format="%9%)" style:num-suffix=")" style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="6.35cm" fo:text-indent="-0.635cm" fo:margin-left="6.35cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+   <text:list-level-style-number text:level="10" loext:num-list-format="%10%)" style:num-suffix=")" style:num-format="1">
+    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
+     <style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="6.985cm" fo:text-indent="-0.635cm" fo:margin-left="6.985cm"/>
+    </style:list-level-properties>
+   </text:list-level-style-number>
+  </text:list-style>
   <style:page-layout style:name="pm1">
    <style:page-layout-properties fo:page-width="21.006cm" fo:page-height="29.693cm" style:num-format="1" style:print-orientation="portrait" fo:margin-top="1.27cm" fo:margin-bottom="1.27cm" fo:margin-left="2cm" fo:margin-right="2cm" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="20" style:layout-grid-base-height="0.706cm" style:layout-grid-ruby-height="0.353cm" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" style:layout-grid-base-width="0.706cm" style:layout-grid-snap-to="true" style:footnote-max-height="0cm">
     <style:footnote-sep style:width="0.018cm" style:distance-before-sep="0.101cm" style:distance-after-sep="0.101cm" style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"></style:footnote-sep>
@@ -4031,7 +4146,8 @@ Updated with AFR/TSA Rev-D comments and new keywords.</dc:description><meta:init
    <text:user-field-decls>
     <text:user-field-decl office:value-type="string" office:string-value="" text:name="SEQ"/>
     <text:user-field-decl office:value-type="float" office:value="1" text:name="MD"/>
-    <text:user-field-decl office:value-type="string" office:string-value="" text:name="SEQ CHAPTER \h  1"/>
+    <text:user-field-decl office:value-type="string" office:string-value="" text:name="SEQ CHAPTER \h 
+ 1"/>
    </text:user-field-decls>
    <text:p text:style-name="P18776"/>
    <text:section text:style-name="Sect1" text:name="EOSS">
@@ -4046,22 +4162,22 @@ Updated with AFR/TSA Rev-D comments and new keywords.</dc:description><meta:init
       <table:table-cell table:style-name="Table990.A1" office:value-type="string">
        <text:p text:style-name="P6057"><text:a xlink:type="simple" xlink:href="#3.RUNSPEC SECTION|outline" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T1">RUNSPEC</text:span></text:a></text:p>
       </table:table-cell>
-      <table:table-cell table:style-name="Table990.A1" office:value-type="string">
+      <table:table-cell table:style-name="Table990.B1" office:value-type="string">
        <text:p text:style-name="P6690"><text:a xlink:type="simple" xlink:href="#4.GRID SECTION|outline" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T1">GRID</text:span></text:a></text:p>
       </table:table-cell>
-      <table:table-cell table:style-name="Table990.A1" office:value-type="string">
+      <table:table-cell table:style-name="Table990.B1" office:value-type="string">
        <text:p text:style-name="P6690"><text:a xlink:type="simple" xlink:href="#5.EDIT SECTION|outline" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T1">EDIT</text:span></text:a></text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Table990.A1" office:value-type="string">
        <text:p text:style-name="P6690"><text:a xlink:type="simple" xlink:href="#6.PROPS SECTION|outline" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T1">PROPS</text:span></text:a></text:p>
       </table:table-cell>
-      <table:table-cell table:style-name="Table990.A1" office:value-type="string">
+      <table:table-cell table:style-name="Table990.B1" office:value-type="string">
        <text:p text:style-name="P6690"><text:a xlink:type="simple" xlink:href="#7.REGIONS SECTION|outline" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T1">REGIONS</text:span></text:a></text:p>
       </table:table-cell>
-      <table:table-cell table:style-name="Table990.A1" office:value-type="string">
+      <table:table-cell table:style-name="Table990.B1" office:value-type="string">
        <text:p text:style-name="P6690"><text:a xlink:type="simple" xlink:href="#8.SOLUTION SECTION|outline" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T1">SOLUTION</text:span></text:a></text:p>
       </table:table-cell>
-      <table:table-cell table:style-name="Table990.A1" office:value-type="string">
+      <table:table-cell table:style-name="Table990.B1" office:value-type="string">
        <text:p text:style-name="P6690"><text:a xlink:type="simple" xlink:href="#9.SUMMARY SECTION|outline" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T1">SUMMARY</text:span></text:a></text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Table990.H1" office:value-type="string">
@@ -4069,7 +4185,92 @@ Updated with AFR/TSA Rev-D comments and new keywords.</dc:description><meta:init
       </table:table-cell>
      </table:table-row>
     </table:table>
-    <text:p text:style-name="_40_TextBody">Description of keyword EOSS</text:p>
+    <text:h text:style-name="Heading_20_4" text:outline-level="4" text:is-list-header="true"><text:bookmark-start text:name="__RefHeading___Toc32167_370116838837"/>Description<text:bookmark-end text:name="__RefHeading___Toc32167_370116838837"/></text:h>
+    <text:p text:style-name="_40_TextBody">The <text:a xlink:href="#REF_HEADING_KEYWORD_EOSS_8_3">EOSS</text:a> keyword specifies the Equation Of State (<text:span text:style-name="NotKeyword">EOS</text:span>) to be used for each surface <text:span text:style-name="NotKeyword">EOS</text:span> region. The keyword should only be used if the compositional mode has been requested using the <text:a xlink:href="#__RefHeading___Toc27871_3671211675 Copy 1">COMPS</text:a> keyword in the <text:a xlink:href="#__RefHeading___Toc55591_1778172979">RUNSPEC</text:a> section.</text:p>
+    <text:p text:style-name="_40_TextBody">OPM Flow does not currently support the general compositional modeling formulation.</text:p>
+    <text:p text:style-name="_40_TextBody">This keyword is not supported by OPM Flow but it will be parsed and its data ignored.</text:p>
+    <table:table table:name="Table972" table:style-name="Table972">
+     <table:table-column table:style-name="Table972.A"/>
+     <table:table-column table:style-name="Table972.B"/>
+     <table:table-column table:style-name="Table972.C"/>
+     <table:table-column table:style-name="Table972.D"/>
+     <table:table-row>
+      <table:table-cell table:style-name="Table972.A1" office:value-type="string">
+       <text:p text:style-name="Table_20_Heading">No.</text:p>
+      </table:table-cell>
+      <table:table-cell table:style-name="Table972.A1" office:value-type="string">
+       <text:p text:style-name="Table_20_Heading">Name</text:p>
+      </table:table-cell>
+      <table:table-cell table:style-name="Table972.A1" office:value-type="string">
+       <text:p text:style-name="Table_20_Heading">Description</text:p>
+      </table:table-cell>
+      <table:table-cell table:style-name="Table972.D1" office:value-type="string">
+       <text:p text:style-name="Table_20_Heading">Default</text:p>
+      </table:table-cell>
+     </table:table-row>
+     <table:table-row table:style-name="Table972.2">
+      <table:table-cell table:style-name="Table972.A2" office:value-type="string">
+       <text:p text:style-name="_40_Table_20_Contents_20_Center">1</text:p>
+      </table:table-cell>
+      <table:table-cell table:style-name="Table972.B2" office:value-type="string">
+       <text:p text:style-name="_40_Table_20_Contents">EQUATION</text:p>
+      </table:table-cell>
+      <table:table-cell table:style-name="Table972.C2" office:value-type="string">
+       <text:p text:style-name="_40_Table_20_Contents">A defined character string that specifies the Equation of State to be used, and should be set to one of the following:</text:p>
+       <text:list text:style-name="_40_NumberedListTable">
+        <text:list-item text:start-value="1">
+         <text:p text:style-name="_40_Table_20_Contents">PR: Peng-Robinson,</text:p>
+        </text:list-item>
+        <text:list-item>
+         <text:p text:style-name="_40_Table_20_Contents">RK: Redlich-Kwong,</text:p>
+        </text:list-item>
+        <text:list-item>
+         <text:p text:style-name="_40_Table_20_Contents">SRK: Soave-Redlich-Kwong, or</text:p>
+        </text:list-item>
+        <text:list-item>
+         <text:p text:style-name="_40_Table_20_Contents">ZJ: Zudkevitch-Joffe-Redlich-Kwong.</text:p>
+        </text:list-item>
+       </text:list>
+      </table:table-cell>
+      <table:table-cell table:style-name="Table972.D2" office:value-type="string">
+       <text:p text:style-name="_40_Table_20_Contents_20_Center">PR</text:p>
+      </table:table-cell>
+     </table:table-row>
+     <table:table-row>
+      <table:table-cell table:style-name="Table972.A3" table:number-columns-spanned="4" office:value-type="string">
+       <text:p text:style-name="_40_Table_20_Notes_20_Title">Notes:</text:p>
+       <text:list text:style-name="L1">
+        <text:list-item text:start-value="1">
+         <text:p text:style-name="_40_Table_20_Notes">The keyword is followed by NMEOSS records as specified by the <text:a xlink:href="#__RefHeading___Toc89327_327352552">TABDIMS</text:a> keyword in the <text:a xlink:href="#__RefHeading___Toc55591_1778172979">RUNSPEC</text:a> section.</text:p>
+        </text:list-item>
+        <text:list-item>
+         <text:p text:style-name="_40_Table_20_Notes">Each record is terminated by a “/” and there is no “/” terminator for the keyword.</text:p>
+        </text:list-item>
+       </text:list>
+      </table:table-cell>
+      <table:covered-table-cell/>
+      <table:covered-table-cell/>
+      <table:covered-table-cell/>
+     </table:table-row>
+    </table:table>
+    <text:p text:style-name="Table">Table <text:sequence text:ref-name="refTable0" text:name="Table" text:formula="ooow:Table+1" style:num-format="1">8.3.51.1</text:sequence>: <text:a xlink:href="#REF_HEADING_KEYWORD_EOSS_8_3">EOSS</text:a> Keyword Description</text:p>
+    <text:p text:style-name="_40_TextBody"></text:p>
+    <text:p text:style-name="_40_TextBody">See also the PRCORR keyword in the PROPS section that can be used to select the modified Peng-Robinson equation of state.</text:p>
+    <text:h text:style-name="Heading_20_4" text:outline-level="4" text:is-list-header="true"><text:bookmark-start text:name="__RefHeading___Toc32169_370116838835"/>Example<text:bookmark-end text:name="__RefHeading___Toc32169_370116838835"/></text:h>
+    <text:p text:style-name="_40_TextBody">The following example defines Peng-Robinson as the Equation of State for a model with a single surface <text:span text:style-name="NotKeyword">EOS</text:span> region.</text:p>
+    <text:p text:style-name="_40_Example">--</text:p>
+    <text:p text:style-name="_40_Example">-- <text:s text:c="6"/>SPECIFY SURFACE EQUATION OF STATE <text:s text:c="54"/></text:p>
+    <text:p text:style-name="_40_Example">--</text:p>
+    <text:p text:style-name="_40_Example">EOSS <text:s text:c="73"/></text:p>
+    <text:p text:style-name="_40_Example"><text:s text:c="9"/>PR <text:s text:c="36"/>/ <text:s text:c="10"/></text:p>
+    <text:p text:style-name="_40_Example"/>
+    <text:p text:style-name="_40_TextBody">The following example defines Peng-Robinson as the Equation of State for surface <text:span text:style-name="NotKeyword">EOS</text:span> region one, and Soave-Redlich-Kwong as the Equation of State for surface <text:span text:style-name="NotKeyword">EOS</text:span> region two in a model with two surface <text:span text:style-name="NotKeyword">EOS</text:span> regions.</text:p>
+    <text:p text:style-name="_40_Example">--</text:p>
+    <text:p text:style-name="_40_Example">-- <text:s text:c="6"/>SPECIFY SURFACE EQUATION OF STATE <text:s text:c="54"/></text:p>
+    <text:p text:style-name="_40_Example">--</text:p>
+    <text:p text:style-name="_40_Example">EOSS <text:s text:c="73"/></text:p>
+    <text:p text:style-name="_40_Example"><text:s text:c="9"/>PR <text:s text:c="36"/>/ <text:s text:c="10"/></text:p>
+    <text:p text:style-name="_40_Example"><text:s text:c="9"/>RK <text:s text:c="36"/>/ <text:s text:c="10"/></text:p>
    </text:section>
   </office:text>
  </office:body>
