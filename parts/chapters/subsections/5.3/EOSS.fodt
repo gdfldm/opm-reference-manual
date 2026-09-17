@@ -1917,6 +1917,7 @@ Updated with AFR/TSA Rev-D comments and new keywords.</dc:description><meta:init
   <style:default-page-layout>
    <style:page-layout-properties style:writing-mode="lr-tb" style:layout-grid-standard-mode="true"></style:page-layout-properties>
   </style:default-page-layout>
+  <style:style style:name="NotKeyword" style:family="text"/>
  </office:styles><office:automatic-styles>
   <style:style style:name="Table108" style:family="table">
    <style:table-properties style:width="16.976cm" fo:margin-left="-0.053cm" table:align="left" style:writing-mode="lr-tb" table:border-model="separating"></style:table-properties>
@@ -2503,12 +2504,17 @@ Updated with AFR/TSA Rev-D comments and new keywords.</dc:description><meta:init
   </style:style>
   <style:style style:name="Table990.A1" style:family="table-cell">
    <style:table-cell-properties fo:background-color="#ff950e" fo:padding-left="0.051cm" fo:padding-right="0.051cm" fo:padding-top="0.102cm" fo:padding-bottom="0.102cm" fo:border-left="0.05pt solid #000000" fo:border-right="none" fo:border-top="0.05pt solid #000000" fo:border-bottom="0.05pt solid #000000">
-    <style:background-image></style:background-image>
+    <style:background-image/>
+   </style:table-cell-properties>
+  </style:style>
+  <style:style style:name="Table990.B1" style:family="table-cell">
+   <style:table-cell-properties fo:background-color="#eeeeee" fo:padding-left="0.051cm" fo:padding-right="0.051cm" fo:padding-top="0.102cm" fo:padding-bottom="0.102cm" fo:border-left="0.05pt solid #000000" fo:border-right="none" fo:border-top="0.05pt solid #000000" fo:border-bottom="0.05pt solid #000000">
+    <style:background-image/>
    </style:table-cell-properties>
   </style:style>
   <style:style style:name="Table990.H1" style:family="table-cell">
-   <style:table-cell-properties fo:background-color="#ff950e" fo:padding-left="0.051cm" fo:padding-right="0.051cm" fo:padding-top="0.102cm" fo:padding-bottom="0.102cm" fo:border="0.05pt solid #000000">
-    <style:background-image></style:background-image>
+   <style:table-cell-properties fo:background-color="#eeeeee" fo:padding-left="0.051cm" fo:padding-right="0.051cm" fo:padding-top="0.102cm" fo:padding-bottom="0.102cm" fo:border="0.05pt solid #000000">
+    <style:background-image/>
    </style:table-cell-properties>
   </style:style>
   <style:style style:name="P1" style:family="paragraph" style:parent-style-name="Standard">
@@ -4031,11 +4037,10 @@ Updated with AFR/TSA Rev-D comments and new keywords.</dc:description><meta:init
    <text:user-field-decls>
     <text:user-field-decl office:value-type="string" office:string-value="" text:name="SEQ"/>
     <text:user-field-decl office:value-type="float" office:value="1" text:name="MD"/>
-    <text:user-field-decl office:value-type="string" office:string-value="" text:name="SEQ CHAPTER \h  1"/>
+    <text:user-field-decl office:value-type="string" office:string-value="" text:name="SEQ CHAPTER \h   1"/>
    </text:user-field-decls>
    <text:p text:style-name="P18776"/>
    <text:section text:style-name="Sect1" text:name="EOSS">
-
    <text:h text:style-name="P18335" text:outline-level="3"><text:bookmark-start text:name="REF_HEADING_KEYWORD_EOSS_5_3"/>EOSS – Specify Surface Equation of State<text:bookmark-end text:name="REF_HEADING_KEYWORD_EOSS_5_3"/></text:h>
     <table:table table:name="Table990" table:style-name="Table990">
      <table:table-column table:style-name="Table990.A" table:number-columns-repeated="4"></table:table-column>
@@ -4046,22 +4051,22 @@ Updated with AFR/TSA Rev-D comments and new keywords.</dc:description><meta:init
       <table:table-cell table:style-name="Table990.A1" office:value-type="string">
        <text:p text:style-name="P6057"><text:a xlink:type="simple" xlink:href="#3.RUNSPEC SECTION|outline" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T1">RUNSPEC</text:span></text:a></text:p>
       </table:table-cell>
-      <table:table-cell table:style-name="Table990.A1" office:value-type="string">
+      <table:table-cell table:style-name="Table990.B1" office:value-type="string">
        <text:p text:style-name="P6690"><text:a xlink:type="simple" xlink:href="#4.GRID SECTION|outline" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T1">GRID</text:span></text:a></text:p>
       </table:table-cell>
-      <table:table-cell table:style-name="Table990.A1" office:value-type="string">
+      <table:table-cell table:style-name="Table990.B1" office:value-type="string">
        <text:p text:style-name="P6690"><text:a xlink:type="simple" xlink:href="#5.EDIT SECTION|outline" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T1">EDIT</text:span></text:a></text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Table990.A1" office:value-type="string">
        <text:p text:style-name="P6690"><text:a xlink:type="simple" xlink:href="#6.PROPS SECTION|outline" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T1">PROPS</text:span></text:a></text:p>
       </table:table-cell>
-      <table:table-cell table:style-name="Table990.A1" office:value-type="string">
+      <table:table-cell table:style-name="Table990.B1" office:value-type="string">
        <text:p text:style-name="P6690"><text:a xlink:type="simple" xlink:href="#7.REGIONS SECTION|outline" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T1">REGIONS</text:span></text:a></text:p>
       </table:table-cell>
-      <table:table-cell table:style-name="Table990.A1" office:value-type="string">
+      <table:table-cell table:style-name="Table990.B1" office:value-type="string">
        <text:p text:style-name="P6690"><text:a xlink:type="simple" xlink:href="#8.SOLUTION SECTION|outline" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T1">SOLUTION</text:span></text:a></text:p>
       </table:table-cell>
-      <table:table-cell table:style-name="Table990.A1" office:value-type="string">
+      <table:table-cell table:style-name="Table990.B1" office:value-type="string">
        <text:p text:style-name="P6690"><text:a xlink:type="simple" xlink:href="#9.SUMMARY SECTION|outline" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T1">SUMMARY</text:span></text:a></text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Table990.H1" office:value-type="string">
@@ -4069,7 +4074,9 @@ Updated with AFR/TSA Rev-D comments and new keywords.</dc:description><meta:init
       </table:table-cell>
      </table:table-row>
     </table:table>
-    <text:p text:style-name="_40_TextBody">Description of keyword EOSS</text:p>
+    <text:h text:style-name="Heading_20_4" text:outline-level="4" text:is-list-header="true"><text:bookmark-start text:name="__RefHeading___Toc32167_370116838837"/>Description<text:bookmark-end text:name="__RefHeading___Toc32167_370116838837"/></text:h>
+    <text:p text:style-name="_40_TextBody">The <text:a xlink:href="#REF_HEADING_KEYWORD_EOSS_5_3">EOSS</text:a> keyword specifies the surface-conditions Equation Of State (<text:span text:style-name="NotKeyword">EOS</text:span>) to be used for each surface <text:span text:style-name="NotKeyword">EOS</text:span> region. The keyword should only be used if the compositional mode has been requested using the <text:a xlink:href="#__RefHeading___Toc27871_3671211675 Copy 1">COMPS</text:a> keyword in the <text:a xlink:href="#__RefHeading___Toc55591_1778172979">RUNSPEC</text:a> section.</text:p>
+    <text:p text:style-name="_40_TextBody">See <text:a xlink:type="simple" xlink:href="#0.0.0.EOS" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:bookmark-ref text:reference-format="text" text:ref-name="REF_HEADING_KEYWORD_EOSS_8_3">EOSS – Specify Surface Equation of State</text:bookmark-ref></text:a> in the <text:a xlink:href="#__RefHeading___Toc39329_784232322">PROPS</text:a> section for a full description.</text:p>
    </text:section>
   </office:text>
  </office:body>
