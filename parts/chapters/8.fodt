@@ -47452,6 +47452,9 @@ Updated with AFR/TSA Rev-D comments and new keywords.</dc:description><meta:init
 <text:section text:style-name="Sect1" text:name="Section8.3:EOS" text:protected="true">
      <text:section-source xlink:href="subsections/8.3/EOS.fodt" text:filter-name="OpenDocument Text Flat XML" text:section-name="EOS"/>
     </text:section>
+<text:section text:style-name="Sect1" text:name="Section8.3:EOSS" text:protected="true">
+     <text:section-source xlink:href="subsections/8.3/EOSS.fodt" text:filter-name="OpenDocument Text Flat XML" text:section-name="EOSS"/>
+    </text:section>
 <text:section text:style-name="Sect1" text:name="Section8.3:EPSDBGS" text:protected="true">
      <text:section-source xlink:href="subsections/8.3/EPSDBGS.fodt" text:filter-name="OpenDocument Text Flat XML" text:section-name="EPSDBGS"/>
     </text:section>
