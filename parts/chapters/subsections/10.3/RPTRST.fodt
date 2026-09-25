@@ -891,20 +891,20 @@ Updated with AFR/TSA Rev-D comments and new keywords.</dc:description><meta:init
    <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" style:contextual-spacing="false"/>
   </style:style>
   <style:style style:name="_40_Table_20_Contents" style:display-name="@Table Contents" style:family="paragraph" style:parent-style-name="Table_20_Contents" style:master-page-name="">
-   <style:paragraph-properties fo:hyphenation-ladder-count="no-limit" style:page-number="auto"></style:paragraph-properties>
-   <style:text-properties fo:hyphenate="false" fo:hyphenation-remain-char-count="2" fo:hyphenation-push-char-count="2" loext:hyphenation-no-caps="false"></style:text-properties>
+   <style:paragraph-properties fo:hyphenation-ladder-count="no-limit" style:page-number="auto"/>
+   <style:text-properties fo:hyphenate="false" fo:hyphenation-remain-char-count="2" fo:hyphenation-push-char-count="2" loext:hyphenation-no-caps="false"/>
   </style:style>
   <style:style style:name="_40_Table_20_Contents_20_Center" style:display-name="@Table Contents Center" style:family="paragraph" style:parent-style-name="Table_20_Contents" style:master-page-name="">
-   <style:paragraph-properties fo:hyphenation-ladder-count="no-limit" style:page-number="auto" fo:text-align="center"></style:paragraph-properties>
-   <style:text-properties fo:hyphenate="false" fo:hyphenation-remain-char-count="2" fo:hyphenation-push-char-count="2" loext:hyphenation-no-caps="false"></style:text-properties>
+   <style:paragraph-properties fo:hyphenation-ladder-count="no-limit" style:page-number="auto" fo:text-align="center"/>
+   <style:text-properties fo:hyphenate="false" fo:hyphenation-remain-char-count="2" fo:hyphenation-push-char-count="2" loext:hyphenation-no-caps="false"/>
   </style:style>
   <style:style style:name="_40_Table_20_Notes_20_Title" style:display-name="@Table Notes Title" style:family="paragraph" style:parent-style-name="Table_20_Contents" style:master-page-name="">
-   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false" fo:hyphenation-ladder-count="no-limit" style:page-number="auto"></style:paragraph-properties>
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false" fo:hyphenation-ladder-count="no-limit" style:page-number="auto"/>
    <style:text-properties style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold" fo:hyphenate="false" fo:hyphenation-remain-char-count="2" fo:hyphenation-push-char-count="2" loext:hyphenation-no-caps="false"/>
   </style:style>
   <style:style style:name="_40_Table_20_Notes" style:display-name="@Table Notes" style:family="paragraph" style:parent-style-name="Table_20_Contents" style:master-page-name="" style:list-style-name="L1">
-   <style:paragraph-properties fo:hyphenation-ladder-count="no-limit" style:page-number="auto"></style:paragraph-properties>
-   <style:text-properties fo:hyphenate="false" fo:hyphenation-remain-char-count="2" fo:hyphenation-push-char-count="2" loext:hyphenation-no-caps="false"></style:text-properties>
+   <style:paragraph-properties fo:hyphenation-ladder-count="no-limit" style:page-number="auto"/>
+   <style:text-properties fo:hyphenate="false" fo:hyphenation-remain-char-count="2" fo:hyphenation-push-char-count="2" loext:hyphenation-no-caps="false"/>
   </style:style>
   <style:style style:name="_40_Code" style:display-name="@Code" style:family="paragraph" style:parent-style-name="_40_Example" style:master-page-name="">
    <style:paragraph-properties style:page-number="auto"/>
@@ -4708,13 +4708,13 @@ Updated with AFR/TSA Rev-D comments and new keywords.</dc:description><meta:init
        <text:p text:style-name="_40_Table_20_Contents">NORST</text:p>
       </table:table-cell>
       <table:table-cell table:style-name="Table716.A2" office:value-type="string">
-       <text:p text:style-name="Table_20_Contents">The NORST mnemonic requests the generation of graphics-only restart files, which are suitable for visualization in OPM ResInsight but cannot be used for simulation restarts, when NORST is set to a value greater than zero. The mnemonic is assigned a value, using the form NORST=OPTION, where OPTION is an integer value set to one of the following:</text:p>
+       <text:p text:style-name="_40_Table_20_Contents">The NORST mnemonic requests the generation of graphics-only restart files, which are suitable for visualization in OPM ResInsight but cannot be used for simulation restarts, when NORST is set to a value greater than zero. The mnemonic is assigned a value, using the form NORST=OPTION, where OPTION is an integer value set to one of the following:</text:p>
        <text:list text:style-name="L1">
         <text:list-item text:start-value="1">
          <text:p text:style-name="_40_Table_20_Notes">OPTION = 1 then the restart file only contains arrays that are normally needed for graphical output. Example: hysteresis arrays (if present in the simulation) are omitted. All standard solution arrays (pressure, saturations, dissolved gas, etc.) and well arrays are included. This gives a reasonably compact file that still allows well results to be visualized.</text:p>
         </text:list-item>
         <text:list-item>
-         <text:p text:style-name="_40_Table_20_Notes">OPTION = 2 then the restart file further excludes all well arrays. In a standard black-oil simulation, the file then contains only: the main solution arrays (PRESSURE, SWAT, SGAS, RS) and any additional arrays requested by other restart controls. This produces the smallest possible restart file, suitable for fast loading of reservoir-wide properties.</text:p>
+         <text:p text:style-name="_40_Table_20_Notes">OPTION = 2 then the restart file further excludes all well arrays. In a standard black-oil simulation, the file then contains only: the main solution arrays (<text:a xlink:href="#__RefHeading___Toc135627_1317547213">PRESSURE</text:a>, <text:a xlink:href="#__RefHeading___Toc137373_1317547213">SWAT</text:a>, <text:a xlink:href="#__RefHeading___Toc137369_1317547213">SGAS</text:a>, <text:a xlink:href="#__RefHeading___Toc137361_1317547213">RS</text:a>) and any additional arrays requested by other restart controls. This produces the smallest possible restart file, suitable for fast loading of reservoir-wide properties.</text:p>
         </text:list-item>
        </text:list>
       </table:table-cell>
@@ -5418,7 +5418,7 @@ Updated with AFR/TSA Rev-D comments and new keywords.</dc:description><meta:init
          <text:p text:style-name="_40_Table_20_Notes">Only items that are necessary to restart a run are written to the restart file, for example if the <text:a xlink:href="#__RefHeading___Toc62787_1778172979">SOLVENT</text:a> option has not been activated in the <text:a xlink:href="#__RefHeading___Toc55591_1778172979">RUNSPEC</text:a> section then the SSOLVENT array will not be written to the restart file.</text:p>
         </text:list-item>
         <text:list-item>
-         <text:p text:style-name="_40_Table_20_Notes">The tracer distribution is output when the <text:a xlink:href="#__RefHeading___Toc76509_327352552">TRACERS</text:a> option has been activated in the <text:a xlink:href="#__RefHeading___Toc55591_1778172979">RUNSPEC</text:a> section. The array name is the tracer name followed by either 'F' (free) or 'S' (solution).</text:p>
+         <text:p text:style-name="_40_Table_20_Notes">The tracer distribution is output when the <text:a xlink:href="#__RefHeading___Toc76509_327352552">TRACERS</text:a> option has been activated in the <text:a xlink:href="#__RefHeading___Toc55591_1778172979">RUNSPEC</text:a> section. The array name is the tracer name followed by either &apos;F&apos; (free) or &apos;S&apos; (solution).</text:p>
         </text:list-item>
        </text:list>
       </table:table-cell>
